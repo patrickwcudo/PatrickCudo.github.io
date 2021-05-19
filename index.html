@@ -1,240 +1,209 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Patrick's Portfolio</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Patrick Cudo</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/Slack_Headshot.jpg" alt="" /></span>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                </ul>
-            </div>
-        </nav>
-        <!-- Page Content-->
-        <div class="container-fluid p-0">
-            <!-- About-->
-            <section class="resume-section" id="about">
-                <div class="resume-section-content">
-                    <h1 class="mb-0">
-                        Patrick
-                        <span class="text-primary">Cudo</span>
-                    </h1>
-                    <div class="subheading mb-5">
-                        Greensboro, NC · (336) 601-5712 ·
-                        <a href="patrickwcudo@gmail.com">patrickwcudo@gmail.com</a>
-                    </div>
-                    <p class="lead mb-5">
-                        Data Scientist determined to find solutions to unique and challenging problems. 
-                        As a former Industrial Engineer, I bring experience assessing work plans and delivering above and beyond for clients. 
-                        My mix of technical and operations experience drives me to work for a company with high performing collaborative teams and allows me to grow professionally.
-                    </p>
-                    <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/patrick-cudo-b3bb27128/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="https://github.com/patrickwcudo"><i class="fab fa-github"></i></a>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Experience-->
-            <section class="resume-section" id="projects">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Projects</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">
-                                <a href="https://github.com/patrickwcudo/Subreddit-Comment-Project" target="_blank"> NLP - Subreddit Comment Project</a>
-                            </h3>
-                            <p>Scraped thousands of comments from two subreddits, r/DFSports and r/sportsbook, using the Pushshift reddit API.  After the process of cleaning, lemmatizationing, and creating custom stop words the cotent was
-                                analyzed as tokens through count vectorization.  The final logistic regression model provided an accuracy score of 83% on unseen comments.  
-                                </p>
+<!DOCTYPE HTML>
+<!--
+	Story by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Patrick's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">
-                                <a href="https://github.com/patrickwcudo/Evaluating-Happiness-in-Children" target="_blank">Evaluating Happiness in Children</a>
-                            </h3>
-                            <p>The goal of this project was to evaluate the different factors that may put children at-risk for developing poor mental health. We examined 
-                                the effect of factors such as special healthcare needs, behavior, healthcare access, and physical health check-ups. Within our dataset, 
-                                our target variable was UNHAP42. This variable was gathered from a survey that asks children whether or not they feel unhappy or sad.</p>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">
-                                <a href="https://github.com/patrickwcudo/Evaluating-Happiness-in-Children" target="_blank">MLB Fantasy Points Per Game Predictor</a>
-                            </h3>
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
 
-                            <p>This project was done for my Data Science Immersive Capstone. 
-                                The goal of this project is to build a regression model to predict fantasy points per game for MLB players in the current 2021 season. 
-                                This model will be evaluated using RMSE and the model should improve upon the baseline by at least 25%. 
-                                The model’s predictions and coefficients will be used to create a lineup building application. 
-                                The application will provide a MLB daily fantasy lineup for a user. 
-                                This product is geared towards companies that provide services to fantasy players. 
-                                The product can be used in trial periods for potential users or as a product offered to existing users.
-                                </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Experience-->
-            <section class="resume-section" id="experience">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Experience</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Data Science Immersive</h3>
-                            <div class="subheading mb-3">General Assembly</div>
-                            <p>Successfully completed 500+ hours of expert-led instruction in data analysis, data visualization and hands-on learning of statistical modeling fundamentals and the industry's most in demand technologies. Completed 21 labs and 5 projects, including:
-                                Developed a Natural Language Processing model to identify comments from specific subreddits.
-                                Collaborated with 2 fellow data scientists to predict unhappiness in children, providing insight into key contributors of unhappiness and providing possible solutions.
-                                Developed a machine learning model to predict MLB fantasy points and lineup builder application.
-                                </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">April 2018 - Jan 2021</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Industrial Engineering Supervisor</h3>
-                            <div class="subheading mb-3">United Parcel Service</div>
-                            <p>Conduct MSD or master standard data for twilight sort and built a daily operating plan based off that data. Maintain daily operation plan for twilight sort and make daily adjustments based on changing conditions with operators in pre sort meetings.
-                                Forecast volume, production and staffing for twilight 18 months out from current date. Maintain GLS scanning plan for twilight sort.
-                                Reduced inbound unplanned flow for the twilight sort in the year 2020 by over 100,000 packages for an estimated cost savings of $184,863.
-                                Improved unload work area percent effective to work measurement from February to May, in 2020, which reduced hours in the operation and saved an estimated $12,000.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">April 2018 - Jan 2021</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Internship and Selenium Course Student</h3>
-                            <div class="subheading mb-3">Zenergy Technologies</div>
-                            <p>Enrolled in the Selenium Web Driver course for QA and testing automation in the Java programming language
-                                Design test cases with the Java programming language to test functionality of an ecommerce web site
-                                Excel my knowledge of the Java programming language and object oriented programming practices
-                                </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Jan 2017 - May 2017</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Outbound Lead Supervisor</h3>
-                            <div class="subheading mb-3">United Parcel Service</div>
-                            <p>Instruct, motivate and lead over 40 hourly employees on 4 different outbound areas
-                                Instruct and train area supervisors on the best way to be safe and productive
-                                Promoted from Outbound Supervisor based on experience, promoted to Outbound Supervisor from Hourly employee; started working initially as hourly employee in 2012
-                                </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">June 2016 - April 2018</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Education-->
-            <section class="resume-section" id="education">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Education</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">General Assembly</h3>
-                            <div class="subheading mb-3">Data Science Immersive Course - Remote</div>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">February 2021 - May 2021</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">University of North Carolina at Greensboro</h3>
-                            <div class="subheading mb-3">Bachelor of Science</div>
-                            <div>Information Systems and Operations Management</div>
-                            <p>Computer Science Minor</p>
-                            <p>GPA: 3.5</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2014 - December 2017</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Skills-->
-            <section class="resume-section" id="skills">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Python, SQL, Jupyter, GitHub
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Pandas, NumPy, Sklearn, Machine Learning, NLP
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Data Visualization, Seaborn, Matplotlib
-                        </li>
-                    </ul>
-                    <p></p>
-                    <div class="subheading mb-3">Industry and Interpersonal Skills</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Leadership, Operations Management, Team Motivation, Employee Training
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Process Improvement, Cross Functional Communication 
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Microsoft Excel
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Interests-->
-            <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>Apart from being a Data Scientist, I enjoy physical fitness activities and playing golf.  I am a huge sports fan cheering on all Philadelphia, PA sports teams. </p>
-                    <p class="mb-0">I also enjoy watching movies of any genre and spending time with my wife and son.</p>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Awards-->
+				<!-- One -->
+					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+						<div class="content">
+							<h1>Patrick Cudo</h1>
+							<p class="major">Data Scientist determined to find solutions to unique and challenging problems. 
+								As a former Industrial Engineer, I bring experience assessing work plans and delivering above and beyond for clients. 
+								My mix of technical and operations experience drives me to work for a company with high performing collaborative teams and allows me to 
+								grow professionally.</p>
+								<ul class="icons">
+									<li><a href="https://www.linkedin.com/in/patrick-cudo-b3bb27128/" target="_blank" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://github.com/patrickwcudo" class="icon brands style2 fab fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								</ul>
+								<ul class="icons">
+									<li class="icon solid fa-home">
+										Greensboro, NC 27410<br />
+									</li>
+									<li class="icon solid fa-phone">(336) 601-5712</li>
+									<li class="icon solid fa-envelope"><a href="mailto:patrickwcudo@gmail.com">patrickwcudo@gmail.com</a></li>
+								</ul>
+							<ul class="actions stacked">
+								<li><a href="#first" class="button big wide smooth-scroll-middle">Continue to Projects</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/river-1874264_1280.jpg" alt="" />
+						</div>
+					</section>
 
-        </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Third party plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+				<!-- Two -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
+						<div class="content">
+							<h2>MLB Fantasy Points Per Game Predictor</h2>
+							<p>This project was done for my Data Science Immersive Capstone. 
+								The goal of this project is to build a regression model to predict fantasy points per game for MLB players in the current 2021 season. 
+								This model will be evaluated using RMSE and the model should improve upon the baseline by at least 25%. 
+								The model’s predictions and coefficients will be used to create a lineup building application. 
+								The application will provide a MLB daily fantasy lineup for a user. 
+								This product is geared towards companies that provide services to fantasy players. 
+								The product can be used in trial periods for potential users or as a product offered to existing users.</p>
+							<ul class="actions stacked">
+								<li><a href="https://github.com/patrickwcudo/DFS_MLB_FPPG_Predictor" target="_blank" class="button">Learn More</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/baseball-field-1563858_1280.jpg" alt="" />
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<h2>Evaluating Happiness in Children</h2>
+							<p>The goal of this project was to evaluate the different factors that may put children at-risk for developing poor mental health. We examined 
+								the effect of factors such as special healthcare needs, behavior, healthcare access, and physical health check-ups. Within our dataset, 
+								our target variable was UNHAP42. This variable was gathered from a survey that asks children whether or not they feel unhappy or sad.</p>
+							<ul class="actions stacked">
+								<li><a href="https://github.com/patrickwcudo/Evaluating-Happiness-in-Children" target="_blank" class="button">Learn More</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/children-602967_1280.jpg" alt="" />
+						</div>
+					</section>
+
+				<!-- Four -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<h2>NLP - Subreddit Comment Project</h2>
+							<p>Scraped thousands of comments from two subreddits, r/DFSports and r/sportsbook, using the Pushshift reddit API.  After the process of cleaning, lemmatizationing, and creating custom stop words the cotent was
+								analyzed as tokens through count vectorization.  The final logistic regression model provided an accuracy score of 83% on unseen comments.</p>
+							<ul class="actions stacked">
+								<li><a href="https://github.com/patrickwcudo/Subreddit-Comment-Project" target="_blank" class="button">Learn More</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/reddit-1460603_1280.png" alt="" />
+						</div>
+					</section>
+
+				<!-- Five -->
+
+				<!-- Six -->
+					<section class="wrapper style1 align-center">
+						<div class="inner">
+							<h2>Experience</h2>
+							<p>Former Industrial Engineer turned Data Scientist.</p>
+							<div class="items style1 medium onscroll-fade-in">
+								<section>
+									<span class="icon solid style2 major fa-chart-bar"></span>
+									<header>
+									<h3>Data Science Immersive</h3>
+									<p>General Assembly<br />
+									February 2021 - May 2021</p>
+								</header>
+									<p>uccessfully completed 500+ hours of expert-led instruction in data analysis, data visualization and hands-on learning of statistical modeling fundamentals and the industry's most in demand technologies. 
+										Completed 21 labs and 5 projects, including: Developed a Natural Language Processing model to identify comments from specific subreddits. 
+										Collaborated with 2 fellow data scientists to predict unhappiness in children, providing insight into key contributors of unhappiness and providing possible solutions. 
+										Developed a machine learning model to predict MLB fantasy points and lineup builder application.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-cog"></span>
+									<header>
+									<h3>Industrial Engineering Supervisor</h3>
+									<p>United Parcel Serivce<br />
+									April 2018 - Jan 2021</p>
+									</header>
+									<p>Conduct MSD or master standard data for twilight sort and built a daily operating plan based off that data. 
+										Maintain daily operation plan for twilight sort and make daily adjustments based on changing conditions with operators in pre sort meetings. 
+										Forecast volume, production and staffing for twilight 18 months out from current date. Maintain GLS scanning plan for twilight sort. 
+										Reduced inbound unplanned flow for the twilight sort in the year 2020 by over 100,000 packages for an estimated cost savings of $184,863. 
+										Improved unload work area percent effective to work measurement from February to May, in 2020, which reduced hours in the operation and saved an estimated $12,000.</p>
+								</section>
+
+								<section>
+									<span class="icon solid style2 major fa-sync-alt"></span>
+									<header>
+									<h3>Internship and Selenium Course Student</h3>
+									<p>Zenergy Technologies<br />
+									January 2017 - May 2017</p>
+								</header>
+									<p>Enrolled in the Selenium Web Driver course for QA and testing automation in the Java programming language. 
+										Design test cases with the Java programming language to test functionality of an ecommerce web site. 
+										Excel my knowledge of the Java programming language and object oriented programming practices.</p>
+								</section>
+							</div>
+						</div>
+					</section>
+
+					<section class="wrapper style1 align-center">
+						<div class="inner">
+							<h2>Skills and Education</h2>
+							<div class="items style1 medium onscroll-fade-in">
+								<section>
+									
+									<h3>University of North Carolina at Greensboro</h3>
+									<header>
+									<h4>Bachelor of Science</h4>
+									<p>
+										Infomation Systems and Operations Management<br/>
+										Computer Science Minor<br/>
+									August 2014 - December 2017</p>
+								</header>
+								</section>
+								<section>
+									<header>
+									<h3>Programming Languages & Tools</h3>
+
+									<ul>
+										<li>Python, SQL, Jupyter, Github</li>
+										<li>Pandas, NumPy, Scikit Learn, Machine Learning, NLP</li>
+										<li>Data Visualization, Seaborn, Matplotlib</li>
+									</ul>
+								</section>
+								<section>
+
+									<h3>Industry and Interpersonal Skills</h3>
+
+									<ul>
+										<li>Leadership, Operations Management, Team Motivation, Employee Training</li>
+										<li>Process Improvement, Cross Functional Communication</li>
+										<li>Microsoft Excel</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</section>
+
+				<!-- Seven -->
+
+				<!-- Footer -->
+					<footer class="wrapper style1 align-center">
+						<div class="inner">
+							<p>&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+							<p><a href="https://pixabay.com/">Images from pixabay</a></p>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
